@@ -1,0 +1,62 @@
+# CAD temporary files
+*.tmp
+*.bak
+~$*
+*~
+
+# SolidWorks
+~$*.SLDPRT
+~$*.SLDASM
+~$*.SLDDRW
+
+# Fusion 360
+*.f3z
+*.f3d
+
+# STL files (comment out if you want to commit STLs)
+# *.stl
+
+# Gerber files
+*.gbr
+*.drl
+
+# KiCad temporary
+*.kicad_pcb-bak
+*.sch-bak
+*-cache.lib
+*-rescue.lib
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+dist/
+*.hex
+*.bin
+*.elf
+
+# Documentation build
+docs/_build/
+*.pdf
+
+# Logs
+*.log
